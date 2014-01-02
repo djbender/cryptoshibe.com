@@ -3,5 +3,4 @@ ruby '2.1.0'
 
 gem 'jekyll'
 gem 'jekyll-slim'
-gem 'rack-contrib'
-gem 'puma'
+gem 's3_website'

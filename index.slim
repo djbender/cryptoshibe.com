@@ -1,0 +1,21 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+#home
+  | {% for post in site.posts %}
+  .post
+    h1
+      a href="{{post.url}}" {{post.title}}
+    p.lead
+      | {{post.lede}}
+    p
+      span.glyphicon.glyphicon-time
+      |  Posted on {{ post.date | date: "%B %-d, %Y"}}
+    p
+      | {{post.excerpt}}
+      a.btn.btn-primary href="{{post.url}}"
+        | Read More
+        span.glyphicon.glyphicon-chevron-right
+  | {% endfor %}

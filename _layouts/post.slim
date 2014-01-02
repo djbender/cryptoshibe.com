@@ -1,0 +1,13 @@
+---
+layout: default
+---
+.post
+  h1
+    a href="{{page.url}}" {{page.title}}
+  p.lead
+    | A {{page.lede}}
+  p
+    span.glyphicon.glyphicon-time
+    |  Posted on {{ page.date | date: "%B %-d, %Y"}}
+  p
+    | {{page.content}}

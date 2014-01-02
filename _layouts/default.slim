@@ -1,0 +1,14 @@
+html lang="en"
+  head
+    | {% slim head.slim %}
+  body
+    | {% slim header.slim %}
+    .container
+      .row
+        .col-md-8
+          | {{ content }}
+          hr
+        .col-md-4
+          | {% slim sidebar.slim %}
+      | {% slim footer.slim %}
+      | {% slim javascripts.slim %}

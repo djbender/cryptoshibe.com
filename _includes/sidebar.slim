@@ -7,12 +7,12 @@
           span.glyphicon.glyphicon-search
 .ad
 .well
-  h4 Categories
+  h4 Tags
   .row
-    | {% for category in site.categories %}
+    | {% for tag in site.tags %}
     .col-xs-6
       ul.list-unstyled
         li
-        | {{ category[0] }}
+        | {{ tag[0] | capitalize }}
     | {% endfor %}
 /.well

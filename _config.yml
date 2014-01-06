@@ -7,4 +7,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - config.ru
-  - vendor
+  - todo.md
+gzip: true
+permalink: /:year/:month/:day/:title/

@@ -10,3 +10,5 @@ exclude:
   - todo.md
 gzip: true
 permalink: /:year/:month/:day/:title/
+
+tag_dir: tags

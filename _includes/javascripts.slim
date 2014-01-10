@@ -1,5 +1,21 @@
 /! JavaScript
 script src="http://code.jquery.com/jquery-2.0.0.min.js"
+script src="/js/parsley.js"
+javascript:
+  $('form').parsley({
+    animate: false,
+    trigger: 'change',
+    successClass: 'has-success',
+    errorClass: 'has-error',
+    errors: {
+      classHandler: function ( elem, isRadioOrCheckbox ) {
+        // specify where parsley error-success classes are set
+        return $(elem).parents(".form-group");
+      },
+      errorsWrapper: '<span class="help-block"></span>',
+      errorElem: '<span></span>'
+    }
+  });
 script src="/js/bootstrap.js"
 javascript:
   (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

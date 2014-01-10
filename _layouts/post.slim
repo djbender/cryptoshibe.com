@@ -1,14 +1,16 @@
 ---
 layout: default
-categories: reddit, dogecoin
 ---
 .post
   h1
-    a href="{{page.url}}" {{page.title}}
+    a href="{{ page.url }}" {{page.title}}
   p.lead
-    | A {{page.lede}}
-  p
+    | {{ page.lede }}
+  p.date
     span.glyphicon.glyphicon-time
     |  Posted on {{ page.date | date: "%B %-d, %Y"}}
+  | {% if post.image %}
+    img src="{{ site.url }}/assets/{{ page.image }}" alt="{{ page.alt }}"
+  | {% endif %}
   p
-    | {{content}}
+    | {{ content }}

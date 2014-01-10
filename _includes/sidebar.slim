@@ -13,6 +13,6 @@
     .col-xs-6
       ul.list-unstyled
         li
-        | {{ tag[0] | capitalize }}
+          | <a href="{{ site.url }}/tags/{{ tag[0] }}/">{{ tag[0] | capitalize }}</a>
     | {% endfor %}
 /.well

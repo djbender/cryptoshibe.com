@@ -10,7 +10,7 @@ alt: 2-Man Jamaican Bobsled Team Qualifies for Sochi Olypmics
 
 The official [Dogecoin Foundation](http://foundation.dogecoin.com) has begun collecting donations to help send the Jamaican Bobsled Team to the 2014 Winter Olympics in Sochi, Russia. With a goal of ~40M Doge ($30,000 USD), the Dogecoin Foundation hopes to not only help send an underfunded team to the Olympics but to also get significant exposure in doing so through dogecoin donations.
 
-From the official website:
+From the Dogecoin Foundation's [Initiatives](http://foundation.dogecoin.com/roadmap) page:
 
 *This is our chance to prove to the world the power of dogecoin and do something truly great for a national team with a inspirational legacy. Feel the rhythm, feel the ride, get on down, it's bobsled time!*
 

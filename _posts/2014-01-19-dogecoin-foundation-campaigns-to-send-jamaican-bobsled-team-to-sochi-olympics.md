@@ -18,7 +18,7 @@ The last line is clearly referencing the 1993 classic *Cool Runnings* in which t
 
 {% img img-responsive /assets/cool-runnings-bathtub.gif %}
 
-Watts has been [quoted](http://www.telegraph.co.uk/sport/othersports/winter-olympics/10572373/Winter-Olympics-2014-Move-over-Usain-Bolt-Jamaicas-cool-runners-are-back-and-hope-to-qualify-for-Sochi-Games.html) referencing the flick: "Cool Runnings, the Second Generation."
+The two man team is made up of Winston Watts and Marvin Dixon. Watts has been [quoted](http://www.telegraph.co.uk/sport/othersports/winter-olympics/10572373/Winter-Olympics-2014-Move-over-Usain-Bolt-Jamaicas-cool-runners-are-back-and-hope-to-qualify-for-Sochi-Games.html) referencing the flick: "Cool Runnings, the Second Generation."
 
 ## Funding
 

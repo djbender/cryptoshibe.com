@@ -9,8 +9,8 @@ layout: default
   p.date
     span.glyphicon.glyphicon-time
     |  Posted on {{ page.date | date: "%B %-d, %Y"}}
-  | {% if post.image %}
-    img src="{{ site.url }}/assets/{{ page.image }}" alt="{{ page.alt }}"
+  | {% if page.image %}
+  img.img-responsive src="{{ site.url }}/assets/{{ page.image }}" alt="{{ page.alt }}"
   | {% endif %}
   p
     | {{ content }}

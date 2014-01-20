@@ -1,5 +1,6 @@
 title: Crypto Shibe
 description: The latest in the cryptocurrency culture and markets. Emphasis is on Dogecoin followed by Bitcoin but will also cover many other currencies and topics.
+url: http://cryptoshibe.com
 markdown: redcarpet
 pygments: true
 exclude:
@@ -13,3 +14,14 @@ gzip: true
 permalink: /:year/:month/:day/:title/
 
 tag_dir: tags
+
+sitemap:
+  file: "/sitemap.xml"
+  exclude:
+    - "/atom.xml"
+    - "/feed.xml"
+    - "/feed/index.xml"
+    - "/s3_website.yml"
+    - "/thank-you/*"
+  include_posts:
+    - "/index.html"

@@ -3,7 +3,7 @@ layout: post
 title: Dogecoin Up 60% Overnight
 lede: Some cry foul, others see moon └(°ᴥ°)┘.
 categories: [dogecoin]
-tags: [dogecoin]
+tags: [dogecoin, reddit]
 image: dogecoin-up-60-percent-overnight.png
 alt: Dogecoin value chart via Cryptsy
 ---

@@ -20,7 +20,9 @@ description: The latest in the cryptocurrency culture and markets. Emphasis is o
     | {% endif %}
     p
       | {{ post.excerpt }}
+      | {% if post.read-more != 'disabled' %}
       a.btn.btn-primary href="{{post.url}}"
         | Read More
         span.glyphicon.glyphicon-chevron-right
+      | {% endif %}
   | {% endfor %}

@@ -40,3 +40,5 @@ Can Dogecoin be the "sponsor" the Jamaican Bobsled team needs? The [dogesled.net
 Feel like supporting the Jamaican Bobsled team through Dogecoin? Donations are accepted at the following address:
 
 **DCLmwBUiY9EE8ND6FYtDfbFsiQD8LAZvAZ** ([Verify this address](http://foundation.dogecoin.com/donate))
+
+**Update 2014/01/20**: The campaign has successfully raised $30,000 USD. In part, thanks to the [recent boom](/2014/01/20/dogecoin-up-60-percent-overnight). More information and wrap up can be found over at Buzzfeed's [coverage](http://www.buzzfeed.com/tomphillips/internet-raises-over-30000-in-dogecoins-to-send).

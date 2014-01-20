@@ -15,7 +15,8 @@ description: The latest in the cryptocurrency culture and markets. Emphasis is o
       span.glyphicon.glyphicon-time
       |  Posted on {{ post.date | date: "%B %-d, %Y"}}
     | {% if post.image %}
-    img.img-responsive src="{{ site.url }}/assets/{{ post.image }}" alt="{{ page.alt }}"
+    a href="{{post.url}}"
+      img.img-responsive src="{{ site.url }}/assets/{{ post.image }}" alt="{{ page.alt }}"
     | {% endif %}
     p
       | {{ post.excerpt }}
